@@ -1,6 +1,6 @@
 # Stage 1 : Define the base image
 # This will setup the image that will be used for production(aliased as "base").
-FROM mcr.microsoft.com/azure-functions/dotnet:3.0 AS base
+FROM mcr.microsoft.com/azure-functions/dotnet:4.0 AS base
 WORKDIR /home/site/wwwroot
 EXPOSE 80
 
